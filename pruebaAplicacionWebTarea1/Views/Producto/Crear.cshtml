@@ -1,0 +1,61 @@
+﻿@model Clases_CRUD.CRUD_Modelos.Producto
+
+@{
+    ViewData["Title"] = "Crear";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="form-group row">
+    <h2 class="text-info pl-3">Crear Nuevo Producto</h2>
+</div>
+<br />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Crear">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            <div class="form-group">
+                <i class="fa-solid fa-prescription"></i> <label asp-for="Descripcion" class="control-label"></label>
+                <input asp-for="Descripcion" class="form-control" />
+                <span asp-validation-for="Descripcion" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <i class="fa-regular fa-calendar-days"></i>  <label asp-for="Año" class="control-label"></label>
+                <input asp-for="Año" class="form-control" />
+                <span asp-validation-for="Año" class="text-danger"></span>
+            </div>
+            <br />
+             <h6>Provedores Disponibles</h6>
+            <select name="idprovedor" class="form-control">
+                @if (ViewBag.listaProvedor != null)
+                {
+                    @foreach (var item in ViewBag.listaProvedor as List<int>)
+                    {
+                        <option label="@item" value="@item"></option>
+                    }
+                }
+            </select>
+             <br />
+            <div class="form-group">
+                <i class="fa-sharp fa-solid fa-dollar-sign"></i> <label asp-for="precio" class="control-label"></label>
+                <input asp-for="precio" class="form-control" />
+                <span asp-validation-for="precio" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <i class="fa-sharp fa-solid fa-dollar-sign"></i> <label asp-for="precioVenta" class="control-label"></label>
+                <input asp-for="precioVenta" class="form-control" />
+                <span asp-validation-for="precioVenta" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Utilidad" class="control-label"></label>
+                <input asp-for="Utilidad" class="form-control" />
+                <span asp-validation-for="Utilidad" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Crear Producto" class="btn btn-primary" />
+                <a asp-controller="Producto" asp-action="Index" class="btn btn-success"> Regresar </a>
+            </div>
+        </form>
+    </div>
+</div>
+

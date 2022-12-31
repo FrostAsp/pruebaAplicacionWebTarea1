@@ -1,0 +1,140 @@
+﻿@model Clases_CRUD.CRUD_Modelos.listasFacturacion
+
+@{
+    ViewData["Title"] = "FacturaFinal";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container p-3">
+
+    <div class="row pt-4">
+
+        <div class="col-6">
+
+            <h2 class="text-primary">Factura Final</h2>
+        </div>
+        <hr />
+        <br />
+       @if(Model != null){
+
+            <table class="table table-hover d-grid gap-2">
+                <th width="10%">
+                    Nombre Completo : @Model.cliente.NombreCompleto
+                </th>
+                <th width="10%">
+                    Cedula : @Model.cliente.Cedula
+                </th>
+                <th width="10%">
+                    Profecion : @Model.cliente.Profecion
+                </th>
+            </table>
+        }
+
+    </div>
+    <br />
+    <br />
+    <br />
+    @if (Model != null)
+    {
+        <table class="table table-striped" style="width:100%">
+
+            <div class="col-4">
+
+                <h6 class="text-black">Tours Facturados</h6>
+
+            </div>
+
+            <thead class="bg-primary text-white">
+
+                <tr>
+
+                    <th>
+                        Id
+                    </th>
+                    <th>
+                        Precio
+                    </th>
+                    <th>
+                        Descripcion
+                    </th>
+
+                </tr>
+            </thead>
+
+            <thbody>
+                @foreach (var item in Model.tour)
+                {
+                   
+                        <tr>
+                            <th width="5%">@item.Id</th>
+                            <th width="10%">@item.Precio</th>
+                            <th width="20%">@item.Descripcion</th>
+                        </tr>
+                }
+            </thbody>
+
+        </table>
+    <br />
+    <br />
+    <table class="table table-striped" style="width:100%">
+
+        <div class="col-4">
+
+            <h6 class="text-black">Productos Facturados</h6>
+
+        </div>
+
+            <thead class="bg-primary text-white">
+
+            <tr>
+
+                <th>
+                    Id
+                </th>
+                <th>
+                    Precio
+                </th>
+                <th>
+                    Descripcion
+                </th>
+                <th>
+                    Cedula Provedor
+                </th>
+
+            </tr>
+        </thead>
+
+        <thbody>
+            @foreach (var item in Model.producto)
+           {
+                    <tr>
+                        <th width="5%">@item.Id</th>
+                        <th width="10%">@item.precioVenta</th>
+                        <th width="15%">@item.Descripcion</th>
+                        <th width="5%">@item.idprovedor</th>
+                    </tr>
+           }
+        </thbody>
+
+    </table>
+
+    <h6 class="text-prmary">Factura Final</h6>
+    <hr />
+    <h7 class="text-prmary">Monto Total a Pagar : @ViewBag.precioTotalsinIVA</h7>
+    <br />
+    <h7 class="text-prmary">Monto Total a Pagar con IVA : @ViewBag.precioTotalmasIVA</h7>
+    <br />
+    <br />
+    <br />
+    <div class="form-group">
+        <a asp-controller="Facturacion" asp-action="Index" class="btn btn-primary"> Aceptar </a>
+        <a asp-controller="Facturacion" asp-action="Eliminar" asp-route-Id="@Model.cliente.Id" class="btn btn-success"> Eliminar </a>
+    </div>
+    }
+    else
+    {
+        <p class="text-danger">No Cuentra con un proceso de Facturacion...</p>
+    }
+
+</div>
+

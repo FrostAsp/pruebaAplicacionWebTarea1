@@ -1,0 +1,95 @@
+﻿@model Clases_CRUD.CRUD_Modelos.Cliente
+
+@{
+    ViewData["Title"] = "Editar Cliente";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="form-group row">
+    <h2 class="text-info pl-3">Editar Cliente</h2>
+</div>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+
+        <form asp-action="Editar">
+
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            
+            <div class="form-group">
+                <label asp-for="Cedula" class="control-label"></label>
+                <input disabled selected asp-for="Cedula" class="form-control text-dark" />
+                <span asp-validation-for="Cedula" class="text-danger"></span>
+            </div>
+            
+            <div class="form-group">
+                <label asp-for="NombreCompleto" class="control-label"></label>
+                <input asp-for="NombreCompleto" class="form-control" />
+                <span asp-validation-for="NombreCompleto" class="text-danger"></span>
+            </div>
+            
+            <div class="form-group">
+                <label asp-for="FechaNacimiento" class="control-label"></label>
+                <input asp-for="FechaNacimiento" class="form-control" />
+                <span asp-validation-for="FechaNacimiento" class="text-danger"></span>
+            </div>
+            
+            <div class="form-group">
+                <label asp-for="Telefono" class="control-label"></label>
+                <input asp-for="Telefono" class="form-control" />
+                <span asp-validation-for="Telefono" class="text-danger"></span>
+            </div>
+            
+            <div class="form-group">
+                <label asp-for="Profecion" class="control-label"></label>
+                <input asp-for="Profecion" class="form-control" />
+                <span asp-validation-for="Profecion" class="text-danger"></span>
+            </div>
+            
+            <div class="form-group">
+                <label asp-for="CorreoElectronico" class="control-label"></label>
+                <input asp-for="CorreoElectronico" class="form-control" />
+                <span asp-validation-for="CorreoElectronico" class="text-danger"></span>
+            </div>
+           
+            @{
+
+                List<SelectListItem> dondeSeEntero = new()
+            {
+            new SelectListItem { Text = "Por un Amigo" },
+            new SelectListItem { Text = "Por Facebook" },
+            new SelectListItem { Text = "Ya Habia Comprado antes" },
+
+            };
+
+                ViewBag.dondeSeEntero = dondeSeEntero;
+
+            }
+
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="form-group">
+                        <option disabled selected>Donde Conocio la Pagina</option>
+                        <select name="DondeSeEnteroDeLaPagina" class="form-control" asp-items="@ViewBag.dondeSeEntero"></select>
+
+                    </div>
+                </div>
+            </div>
+            <hr />
+            
+            <div class="form-group">
+                <label asp-for="Contraseña" class="control-label"></label>
+                <input asp-for="Contraseña" class="form-control" />
+                <span asp-validation-for="Contraseña" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <input type="submit" value="Guardar" class="btn btn-primary" />
+                <a asp-controller="Cliente" asp-action="Index" class="btn btn-success">Regresar</a>
+            </div>
+
+        </form>
+    </div>
+</div>
+
+

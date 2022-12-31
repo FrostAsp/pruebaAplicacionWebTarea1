@@ -1,0 +1,151 @@
+﻿@model IEnumerable<Clases_CRUD.CRUD_Modelos.listasFacturacion>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container p-3 p-5 my-5 bg-light text-white">
+
+    <div class="row pt-4">
+
+        <div class="col-6">
+
+            <h2 class="text-primary">Facturacion</h2>
+           
+        </div>
+
+        @if(Model.Count() > 0){
+
+            <div class="btn-group col-6 text-end" role="group">
+
+                <a asp-controller="Facturacion" asp-action="Crear" class="btn btn-danger">
+                    Realizar Pedido
+                </a>
+
+                <a asp-controller="Facturacion" asp-action="FacturaFinal" class="btn btn-warning">
+                    Evaluar Factura Final
+                </a>
+
+                <a asp-controller="Facturacion" asp-action="Editar" class="btn btn-success">
+                    Editar
+                </a>
+
+            </div>
+        }
+
+    </div>
+    <br />
+    <br />
+    <br />
+    @if (Model.Count() > 0)
+    {
+
+        <table class="table table-striped border-1" style="width:100%">
+
+        <div class="col-4">
+
+                
+                <h6 class="text-black">Productos Disponibles</h6>
+        
+        </div>
+
+            <thead class="bg-primary text-white">
+
+                <tr>
+
+                    <th>
+                        Id
+                    </th>
+                    <th>
+                        Descripcion
+                    </th>
+                    <th>
+                        Año en que se agrego el inventario
+                    </th>
+                    <th>
+                        Precio de venta
+                    </th>
+                    <th>
+                        Id Provedor
+                    </th>
+                </tr>
+            </thead>
+
+            <thbody>
+                @foreach (var item in Model)
+                {
+
+                @foreach (var productos in item.producto)
+                {
+                    <tr>
+                        <th width="5%">@productos.Id</th>
+                        <th width="15%">@productos.Descripcion</th>
+                        <th width="15%">@productos.Año</th>
+                        <th width="12%">@productos.precioVenta</th>
+                        <th width="10%">@productos.idprovedor</th>
+                        
+                    </tr>
+
+                }
+                }
+            </thbody>
+
+        </table>
+        <br />
+        <br />
+        <table class="table table-striped border rounded-top" style="width:100%">
+
+            <div class="col-4">
+
+                <h6 class="text-black">Tours Disponibles</h6>
+
+            </div>
+
+            <thead class="bg-primary text-white">
+
+                <tr>
+
+                    <th>
+                        Id
+                    </th>
+                    <th>
+                        Descripcion
+                    </th>
+                    <th>
+                        Imagen
+                    </th>
+                    <th>
+                        Dia
+                    </th>
+
+                </tr>
+            </thead>
+
+            <thbody>
+
+                @foreach (var item in Model)
+                {
+
+                    @foreach (var productos in item.tour)
+                    {
+                        <tr>
+                            <th width="5%">@productos.Id</th>
+                            <th width="15%">@productos.Descripcion</th>
+                            <th width="15%">@productos.Imagen</th>
+                            <th width="10%">@productos.Dia</th>
+                        </tr>
+                    }
+                }
+
+            </thbody>
+
+        </table>
+
+    }
+    else
+    {
+        <p class="text-danger">No Se encuentran todos los registros</p>
+    }
+
+</div>

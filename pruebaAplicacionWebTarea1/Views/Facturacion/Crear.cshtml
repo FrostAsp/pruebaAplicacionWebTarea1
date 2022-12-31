@@ -1,0 +1,77 @@
+﻿@model IEnumerable<Clases_CRUD.CRUD_Modelos.Facturacion>
+
+@{
+    ViewData["Title"] = "Crear";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div class="form-group row">
+    <h2 class="text-info pl-3">Realizar Compra</h2>
+</div>
+
+<br />
+<div class="row">
+
+    <h6 class="text-danger">Un Cliente No puede tomar mas de dos vez un mismo tours o productos.</h6>
+    <h7 class="text-danger">Gracias por su Compresion...</h7>
+
+    <div class="col-md-3">
+
+        <form asp-action="Crear">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            <div class="row pt-4">
+
+@*                <div class="form-group">
+                    <option disabled selected label="@ViewBag.nombreCompleto" value="@ViewBag.nombreCompleto"></option>
+                </div>*@
+
+@*                <label asp-for="Producto.CategoriaId" class="form-label">Categoria</label>
+                <select asp-for="Producto.CategoriaId" asp-items="@Model.CategoriaLista" class="form-select">
+                    <option disabled selected>--Selecione una Categoria</option>
+                </select>*@
+
+                <div class="col-9">
+                    <br />
+                    <h6 class="text-primary">Id Tours Disponibles</h6>
+                    <select name="idTour" class="form-control">
+
+                        @if (ViewBag.listaTours != null)
+                        {
+                            <option>--Selecione un ID</option>
+                            @foreach (var item in ViewBag.listaTours)
+                            {
+                                <option label="@item" value="@item"></option>
+                            }
+                        }
+                    </select>
+
+                    <br />
+                    <h6 class="text-primary">Id Productos Disponibles</h6>
+                    <select name="idProducto" class="form-control">
+
+                        @if (ViewBag.listaProductos != null)
+                        {
+                            <option>--Selecione un ID</option>
+                            @foreach (var item in ViewBag.listaProductos as List<int>)
+                            {
+                                <option label="@item" value="@item"></option>
+                            }
+                        }
+                    </select>
+
+                </div>
+
+            </div>
+
+            <br />
+
+            <div class="form-group">
+                <input type="submit" value="Ingresar" class="btn btn-primary" />
+                <a asp-controller="Facturacion" asp-action="Index" class="btn btn-success">Regresar</a>
+            </div>
+
+        </form>
+
+    </div>
+
+</div>

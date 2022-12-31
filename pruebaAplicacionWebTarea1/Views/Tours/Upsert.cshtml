@@ -1,0 +1,134 @@
+﻿@model Clases_CRUD.CRUD_Modelos.Tours
+
+@{
+    var titulo = "Crear Tours";
+    
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<form method="post" asp-action="Upsert" enctype="multipart/form-data">
+
+    @if (Model.Id != 0)
+    {
+        titulo = "Editar Tours";
+        
+        <input asp-for="Id" hidden />
+    }
+    <br />
+    <br />
+    <div class="container">
+
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+        <div class="row">
+            <h2 class="text-info">@titulo</h2>
+            
+        </div>
+        <br />
+        <div class="row">
+            <div class="col-8">
+
+                <div class="container">
+
+
+                    <div class="row">
+                        <div class="col-md-6">
+                            <i class="fa-sharp fa-solid fa-notes-medical"></i> <label asp-for="Descripcion" class="form-label">Descripcion</label>
+                            <input asp-for="Descripcion" class="form-control" />
+                            <span asp-validation-for="Descripcion" class="text-danger"></span>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-6">
+                            <i class="fa-regular fa-image"></i>  <label asp-for="Imagen" class="form-label"> Imagen</label>
+                            <input type="file" name="files" id="imagenId" class="form-control" />
+                        </div>
+                    </div>
+
+
+                    @{
+
+                        List<SelectListItem> DiasSemana = new()
+                    {
+                    new SelectListItem { Text = "Lunes a Viernes" },
+                    new SelectListItem { Text = "Sabado y Domingo" },
+                    new SelectListItem { Text = "Solo Sabado" },
+                    new SelectListItem { Text = "Solo Domingo" }
+
+                    };
+
+                        ViewBag.Dias = DiasSemana;
+
+                    }
+
+                    <div class="row">
+                        <div class="col-md-8">
+                            <div class="form-group">
+                                <option disabled selected>Seleccione Los Dias</option>
+                                <select name="Dia" class="form-control" asp-items="@ViewBag.Dias"></select>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <br />
+
+                    <div class="row">
+                        <div class="col-md-6">
+                            <i class="fa-sharp fa-solid fa-dollar-sign"></i> <label asp-for="Precio" class="form-label">Precio</label>
+                            <input asp-for="Precio" class="form-control" />
+                            <span asp-validation-for="Precio" class="text-danger"></span>
+                        </div>
+                    </div>
+
+                    <div class="d-grid gap-2 d-md-block">
+
+                        @if (Model.Id != 0)
+                        {
+                            <button type="submit" class="btn btn-primary">Actualizar</button>
+                        }
+                        else
+                        {
+                            <button type="submit" onclick="return validarImagen()" class="btn btn-primary">Crear Nuevo</button>
+                        }
+
+                        <a asp-controller="" asp-action="" class="btn btn-success">Regresar </a>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="cool-4">
+                @if (Model.Id != 0)
+                {
+                    <img src="@WC.ImagenRuta@Model.Imagen" width="100" style="border-radius:5px; border:1px solid #bbb" />
+                    <label asp-for="Imagen" class="form-label">@WC.ImagenRuta@Model.Imagen</label>
+                }
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+</form>
+
+@section Scripts{
+
+    <script>
+
+        function validarImagen() {
+            if (document.getElementById("imagenId").value == "") {
+                swal("Error", "Seleccion una Imagen!", "error");
+
+                return false;
+            }
+            return true;
+        }
+    </script>
+
+}
+

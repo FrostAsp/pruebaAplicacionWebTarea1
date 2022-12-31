@@ -1,0 +1,132 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = JassonContreras_TAREA1asp.net
+build_property.RootNamespace = JassonContreras_TAREA1asp.net
+build_property.ProjectDir = F:\Escritorio\Proyectos Curso Fundamentos programacion web\Proyecto 3 ASP - copia\pruebaAplicacionWebTarea1\pruebaAplicacionWebTarea1\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = true
+build_property.MSBuildProjectDirectory = F:\Escritorio\Proyectos Curso Fundamentos programacion web\Proyecto 3 ASP - copia\pruebaAplicacionWebTarea1\pruebaAplicacionWebTarea1
+build_property._RazorSourceGeneratorDebug = 
+
+[F:/Escritorio/Proyectos Curso Fundamentos programacion web/Proyecto 3 ASP - copia/pruebaAplicacionWebTarea1/pruebaAplicacionWebTarea1/Views/Cliente/Editar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZVxFZGl0YXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Escritorio/Proyectos Curso Fundamentos programacion web/Proyecto 3 ASP - copia/pruebaAplicacionWebTarea1/pruebaAplicacionWebTarea1/Views/Cliente/Eliminar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZVxFbGltaW5hci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Escritorio/Proyectos Curso Fundamentos programacion web/Proyecto 3 ASP - copia/pruebaAplicacionWebTarea1/pruebaAplicacionWebTarea1/Views/Cliente/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Escritorio/Proyectos Curso Fundamentos programacion web/Proyecto 3 ASP - copia/pruebaAplicacionWebTarea1/pruebaAplicacionWebTarea1/Views/Facturacion/Crear.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmFjdHVyYWNpb25cQ3JlYXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Escritorio/Proyectos Curso Fundamentos programacion web/Proyecto 3 ASP - copia/pruebaAplicacionWebTarea1/pruebaAplicacionWebTarea1/Views/Facturacion/Editar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmFjdHVyYWNpb25cRWRpdGFyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Escritorio/Proyectos Curso Fundamentos programacion web/Proyecto 3 ASP - copia/pruebaAplicacionWebTarea1/pruebaAplicacionWebTarea1/Views/Facturacion/Eliminar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmFjdHVyYWNpb25cRWxpbWluYXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Escritorio/Proyectos Curso Fundamentos programacion web/Proyecto 3 ASP - copia/pruebaAplicacionWebTarea1/pruebaAplicacionWebTarea1/Views/Facturacion/FacturaFinal.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmFjdHVyYWNpb25cRmFjdHVyYUZpbmFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Escritorio/Proyectos Curso Fundamentos programacion web/Proyecto 3 ASP - copia/pruebaAplicacionWebTarea1/pruebaAplicacionWebTarea1/Views/Facturacion/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmFjdHVyYWNpb25cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Escritorio/Proyectos Curso Fundamentos programacion web/Proyecto 3 ASP - copia/pruebaAplicacionWebTarea1/pruebaAplicacionWebTarea1/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Escritorio/Proyectos Curso Fundamentos programacion web/Proyecto 3 ASP - copia/pruebaAplicacionWebTarea1/pruebaAplicacionWebTarea1/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Escritorio/Proyectos Curso Fundamentos programacion web/Proyecto 3 ASP - copia/pruebaAplicacionWebTarea1/pruebaAplicacionWebTarea1/Views/Login/Validar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cVmFsaWRhci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Escritorio/Proyectos Curso Fundamentos programacion web/Proyecto 3 ASP - copia/pruebaAplicacionWebTarea1/pruebaAplicacionWebTarea1/Views/Producto/Crear.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdG9cQ3JlYXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Escritorio/Proyectos Curso Fundamentos programacion web/Proyecto 3 ASP - copia/pruebaAplicacionWebTarea1/pruebaAplicacionWebTarea1/Views/Producto/Editar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdG9cRWRpdGFyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Escritorio/Proyectos Curso Fundamentos programacion web/Proyecto 3 ASP - copia/pruebaAplicacionWebTarea1/pruebaAplicacionWebTarea1/Views/Producto/Eliminar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdG9cRWxpbWluYXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Escritorio/Proyectos Curso Fundamentos programacion web/Proyecto 3 ASP - copia/pruebaAplicacionWebTarea1/pruebaAplicacionWebTarea1/Views/Producto/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdG9cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Escritorio/Proyectos Curso Fundamentos programacion web/Proyecto 3 ASP - copia/pruebaAplicacionWebTarea1/pruebaAplicacionWebTarea1/Views/Proveedores/Crear.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvdmVlZG9yZXNcQ3JlYXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Escritorio/Proyectos Curso Fundamentos programacion web/Proyecto 3 ASP - copia/pruebaAplicacionWebTarea1/pruebaAplicacionWebTarea1/Views/Proveedores/Editar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvdmVlZG9yZXNcRWRpdGFyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Escritorio/Proyectos Curso Fundamentos programacion web/Proyecto 3 ASP - copia/pruebaAplicacionWebTarea1/pruebaAplicacionWebTarea1/Views/Proveedores/Eliminar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvdmVlZG9yZXNcRWxpbWluYXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Escritorio/Proyectos Curso Fundamentos programacion web/Proyecto 3 ASP - copia/pruebaAplicacionWebTarea1/pruebaAplicacionWebTarea1/Views/Proveedores/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvdmVlZG9yZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Escritorio/Proyectos Curso Fundamentos programacion web/Proyecto 3 ASP - copia/pruebaAplicacionWebTarea1/pruebaAplicacionWebTarea1/Views/Registro/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVnaXN0cm9cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Escritorio/Proyectos Curso Fundamentos programacion web/Proyecto 3 ASP - copia/pruebaAplicacionWebTarea1/pruebaAplicacionWebTarea1/Views/Registro/NuevoRegistro.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVnaXN0cm9cTnVldm9SZWdpc3Ryby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Escritorio/Proyectos Curso Fundamentos programacion web/Proyecto 3 ASP - copia/pruebaAplicacionWebTarea1/pruebaAplicacionWebTarea1/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Escritorio/Proyectos Curso Fundamentos programacion web/Proyecto 3 ASP - copia/pruebaAplicacionWebTarea1/pruebaAplicacionWebTarea1/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Escritorio/Proyectos Curso Fundamentos programacion web/Proyecto 3 ASP - copia/pruebaAplicacionWebTarea1/pruebaAplicacionWebTarea1/Views/Tours/Eliminar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVG91cnNcRWxpbWluYXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Escritorio/Proyectos Curso Fundamentos programacion web/Proyecto 3 ASP - copia/pruebaAplicacionWebTarea1/pruebaAplicacionWebTarea1/Views/Tours/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVG91cnNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Escritorio/Proyectos Curso Fundamentos programacion web/Proyecto 3 ASP - copia/pruebaAplicacionWebTarea1/pruebaAplicacionWebTarea1/Views/Tours/Upsert.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVG91cnNcVXBzZXJ0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Escritorio/Proyectos Curso Fundamentos programacion web/Proyecto 3 ASP - copia/pruebaAplicacionWebTarea1/pruebaAplicacionWebTarea1/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Escritorio/Proyectos Curso Fundamentos programacion web/Proyecto 3 ASP - copia/pruebaAplicacionWebTarea1/pruebaAplicacionWebTarea1/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Escritorio/Proyectos Curso Fundamentos programacion web/Proyecto 3 ASP - copia/pruebaAplicacionWebTarea1/pruebaAplicacionWebTarea1/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-85whksk6cm

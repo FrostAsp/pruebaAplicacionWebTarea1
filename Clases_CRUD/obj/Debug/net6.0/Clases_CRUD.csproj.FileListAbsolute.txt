@@ -1,0 +1,48 @@
+C:\Users\jason\Desktop\Proyecto 1 ASP\pruebaAplicacionWebTarea1\Clases_CRUD\bin\Debug\net6.0\Clases_CRUD.deps.json
+C:\Users\jason\Desktop\Proyecto 1 ASP\pruebaAplicacionWebTarea1\Clases_CRUD\bin\Debug\net6.0\Clases_CRUD.dll
+C:\Users\jason\Desktop\Proyecto 1 ASP\pruebaAplicacionWebTarea1\Clases_CRUD\bin\Debug\net6.0\Clases_CRUD.pdb
+C:\Users\jason\Desktop\Proyecto 1 ASP\pruebaAplicacionWebTarea1\Clases_CRUD\obj\Debug\net6.0\Clases_CRUD.csproj.AssemblyReference.cache
+C:\Users\jason\Desktop\Proyecto 1 ASP\pruebaAplicacionWebTarea1\Clases_CRUD\obj\Debug\net6.0\Clases_CRUD.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jason\Desktop\Proyecto 1 ASP\pruebaAplicacionWebTarea1\Clases_CRUD\obj\Debug\net6.0\Clases_CRUD.AssemblyInfoInputs.cache
+C:\Users\jason\Desktop\Proyecto 1 ASP\pruebaAplicacionWebTarea1\Clases_CRUD\obj\Debug\net6.0\Clases_CRUD.AssemblyInfo.cs
+C:\Users\jason\Desktop\Proyecto 1 ASP\pruebaAplicacionWebTarea1\Clases_CRUD\obj\Debug\net6.0\Clases_CRUD.csproj.CoreCompileInputs.cache
+C:\Users\jason\Desktop\Proyecto 1 ASP\pruebaAplicacionWebTarea1\Clases_CRUD\obj\Debug\net6.0\Clases_CRUD.dll
+C:\Users\jason\Desktop\Proyecto 1 ASP\pruebaAplicacionWebTarea1\Clases_CRUD\obj\Debug\net6.0\refint\Clases_CRUD.dll
+C:\Users\jason\Desktop\Proyecto 1 ASP\pruebaAplicacionWebTarea1\Clases_CRUD\obj\Debug\net6.0\Clases_CRUD.pdb
+C:\Users\jason\Desktop\Proyecto 1 ASP\pruebaAplicacionWebTarea1\Clases_CRUD\obj\Debug\net6.0\ref\Clases_CRUD.dll
+C:\Users\jason\Desktop\Proyecto 2 ASP\pruebaAplicacionWebTarea1\Clases_CRUD\bin\Debug\net6.0\Clases_CRUD.deps.json
+C:\Users\jason\Desktop\Proyecto 2 ASP\pruebaAplicacionWebTarea1\Clases_CRUD\bin\Debug\net6.0\Clases_CRUD.dll
+C:\Users\jason\Desktop\Proyecto 2 ASP\pruebaAplicacionWebTarea1\Clases_CRUD\bin\Debug\net6.0\Clases_CRUD.pdb
+C:\Users\jason\Desktop\Proyecto 2 ASP\pruebaAplicacionWebTarea1\Clases_CRUD\obj\Debug\net6.0\Clases_CRUD.csproj.AssemblyReference.cache
+C:\Users\jason\Desktop\Proyecto 2 ASP\pruebaAplicacionWebTarea1\Clases_CRUD\obj\Debug\net6.0\Clases_CRUD.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jason\Desktop\Proyecto 2 ASP\pruebaAplicacionWebTarea1\Clases_CRUD\obj\Debug\net6.0\Clases_CRUD.AssemblyInfoInputs.cache
+C:\Users\jason\Desktop\Proyecto 2 ASP\pruebaAplicacionWebTarea1\Clases_CRUD\obj\Debug\net6.0\Clases_CRUD.AssemblyInfo.cs
+C:\Users\jason\Desktop\Proyecto 2 ASP\pruebaAplicacionWebTarea1\Clases_CRUD\obj\Debug\net6.0\Clases_CRUD.csproj.CoreCompileInputs.cache
+C:\Users\jason\Desktop\Proyecto 2 ASP\pruebaAplicacionWebTarea1\Clases_CRUD\obj\Debug\net6.0\Clases_CRUD.dll
+C:\Users\jason\Desktop\Proyecto 2 ASP\pruebaAplicacionWebTarea1\Clases_CRUD\obj\Debug\net6.0\refint\Clases_CRUD.dll
+C:\Users\jason\Desktop\Proyecto 2 ASP\pruebaAplicacionWebTarea1\Clases_CRUD\obj\Debug\net6.0\Clases_CRUD.pdb
+C:\Users\jason\Desktop\Proyecto 2 ASP\pruebaAplicacionWebTarea1\Clases_CRUD\obj\Debug\net6.0\ref\Clases_CRUD.dll
+C:\Users\jason\Desktop\Proyecto 3 ASP - copia\pruebaAplicacionWebTarea1\Clases_CRUD\bin\Debug\net6.0\Clases_CRUD.deps.json
+C:\Users\jason\Desktop\Proyecto 3 ASP - copia\pruebaAplicacionWebTarea1\Clases_CRUD\bin\Debug\net6.0\Clases_CRUD.dll
+C:\Users\jason\Desktop\Proyecto 3 ASP - copia\pruebaAplicacionWebTarea1\Clases_CRUD\bin\Debug\net6.0\Clases_CRUD.pdb
+C:\Users\jason\Desktop\Proyecto 3 ASP - copia\pruebaAplicacionWebTarea1\Clases_CRUD\obj\Debug\net6.0\Clases_CRUD.csproj.AssemblyReference.cache
+C:\Users\jason\Desktop\Proyecto 3 ASP - copia\pruebaAplicacionWebTarea1\Clases_CRUD\obj\Debug\net6.0\Clases_CRUD.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jason\Desktop\Proyecto 3 ASP - copia\pruebaAplicacionWebTarea1\Clases_CRUD\obj\Debug\net6.0\Clases_CRUD.AssemblyInfoInputs.cache
+C:\Users\jason\Desktop\Proyecto 3 ASP - copia\pruebaAplicacionWebTarea1\Clases_CRUD\obj\Debug\net6.0\Clases_CRUD.AssemblyInfo.cs
+C:\Users\jason\Desktop\Proyecto 3 ASP - copia\pruebaAplicacionWebTarea1\Clases_CRUD\obj\Debug\net6.0\Clases_CRUD.csproj.CoreCompileInputs.cache
+C:\Users\jason\Desktop\Proyecto 3 ASP - copia\pruebaAplicacionWebTarea1\Clases_CRUD\obj\Debug\net6.0\Clases_CRUD.dll
+C:\Users\jason\Desktop\Proyecto 3 ASP - copia\pruebaAplicacionWebTarea1\Clases_CRUD\obj\Debug\net6.0\refint\Clases_CRUD.dll
+C:\Users\jason\Desktop\Proyecto 3 ASP - copia\pruebaAplicacionWebTarea1\Clases_CRUD\obj\Debug\net6.0\Clases_CRUD.pdb
+C:\Users\jason\Desktop\Proyecto 3 ASP - copia\pruebaAplicacionWebTarea1\Clases_CRUD\obj\Debug\net6.0\ref\Clases_CRUD.dll
+F:\Escritorio\Proyectos Curso Fundamentos programacion web\Proyecto 3 ASP - copia\pruebaAplicacionWebTarea1\Clases_CRUD\bin\Debug\net6.0\Clases_CRUD.deps.json
+F:\Escritorio\Proyectos Curso Fundamentos programacion web\Proyecto 3 ASP - copia\pruebaAplicacionWebTarea1\Clases_CRUD\bin\Debug\net6.0\Clases_CRUD.dll
+F:\Escritorio\Proyectos Curso Fundamentos programacion web\Proyecto 3 ASP - copia\pruebaAplicacionWebTarea1\Clases_CRUD\bin\Debug\net6.0\Clases_CRUD.pdb
+F:\Escritorio\Proyectos Curso Fundamentos programacion web\Proyecto 3 ASP - copia\pruebaAplicacionWebTarea1\Clases_CRUD\obj\Debug\net6.0\Clases_CRUD.csproj.AssemblyReference.cache
+F:\Escritorio\Proyectos Curso Fundamentos programacion web\Proyecto 3 ASP - copia\pruebaAplicacionWebTarea1\Clases_CRUD\obj\Debug\net6.0\Clases_CRUD.GeneratedMSBuildEditorConfig.editorconfig
+F:\Escritorio\Proyectos Curso Fundamentos programacion web\Proyecto 3 ASP - copia\pruebaAplicacionWebTarea1\Clases_CRUD\obj\Debug\net6.0\Clases_CRUD.AssemblyInfoInputs.cache
+F:\Escritorio\Proyectos Curso Fundamentos programacion web\Proyecto 3 ASP - copia\pruebaAplicacionWebTarea1\Clases_CRUD\obj\Debug\net6.0\Clases_CRUD.AssemblyInfo.cs
+F:\Escritorio\Proyectos Curso Fundamentos programacion web\Proyecto 3 ASP - copia\pruebaAplicacionWebTarea1\Clases_CRUD\obj\Debug\net6.0\Clases_CRUD.csproj.CoreCompileInputs.cache
+F:\Escritorio\Proyectos Curso Fundamentos programacion web\Proyecto 3 ASP - copia\pruebaAplicacionWebTarea1\Clases_CRUD\obj\Debug\net6.0\Clases_CRUD.dll
+F:\Escritorio\Proyectos Curso Fundamentos programacion web\Proyecto 3 ASP - copia\pruebaAplicacionWebTarea1\Clases_CRUD\obj\Debug\net6.0\refint\Clases_CRUD.dll
+F:\Escritorio\Proyectos Curso Fundamentos programacion web\Proyecto 3 ASP - copia\pruebaAplicacionWebTarea1\Clases_CRUD\obj\Debug\net6.0\Clases_CRUD.pdb
+F:\Escritorio\Proyectos Curso Fundamentos programacion web\Proyecto 3 ASP - copia\pruebaAplicacionWebTarea1\Clases_CRUD\obj\Debug\net6.0\ref\Clases_CRUD.dll

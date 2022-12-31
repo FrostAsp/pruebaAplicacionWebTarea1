@@ -1,0 +1,50 @@
+﻿@model Clases_CRUD.CRUD_Modelos.Login
+@{
+    ViewData["Title"] = "Validar";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="row mt-5 ">
+
+    <div class="col-md-4 offset-sm-4 border p-4 bg-light text-dark">
+
+        <div class="form-group row">
+            <h2 class="text-info pl-3 text-center"> <i class="fa-solid fa-user"></i> LOGIN</h2>
+            <hr />
+        </div>
+        <br />
+        <form asp-action="Validar">
+            
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            
+            <div class="text-center">
+                <h6 class="text-danger">@ViewBag.result</h6>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Cedula" class="control-label"></label>  <i class="fa-regular fa-address-card"></i>
+                <input asp-for="Cedula" class="form-control" id="cedulaId" />
+                <span asp-validation-for="Cedula" class="text-danger"></span>
+            </div>
+            
+            <div class="form-group">
+                <label asp-for="Contraseña" class="control-label"></label> <i class="fa-solid fa-key"></i>
+                <input asp-for="Contraseña" class="form-control" />
+                <span asp-validation-for="Contraseña" class="text-danger"></span>
+            </div>
+
+            <div class="form-group text-center">
+                <input type="submit" onclick="validarUsuario()" value="Ingresar" class="btn btn-primary" />
+                <a asp-controller="Home" asp-action="Index" class="btn btn-success">Regresar</a>
+            </div>
+
+        </form>
+    </div>
+</div>
+
+@*
+@section Scripts{
+    if (!string.IsNullOrEmpty(ViewBag.result)) {
+       <script>swal("Error", "Id ya Existe!", "error");</script>
+    }
+}*@

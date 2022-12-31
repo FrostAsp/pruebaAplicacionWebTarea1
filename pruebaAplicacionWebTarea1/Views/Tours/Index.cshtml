@@ -1,0 +1,104 @@
+﻿@model IEnumerable<Clases_CRUD.CRUD_Modelos.Tours>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<div class="container p-3 p-5 my-5 bg-light text-white">
+
+    <div class="row pt-4">
+
+        <div class="col-6">
+
+            <h2 class="text-primary">Lista de Tours</h2>
+
+        </div>
+
+        <div class="col-6 text-end">
+            <a asp-controller="Tours" asp-action="Upsert" class="btn btn-primary">
+                <i class="fa-regular fa-plus"></i> Nuevo Tours
+            </a>
+        </div>
+
+        <form asp-controller="Tours" asp-action="Index">
+            <br />
+            <p>
+                Buscar: <input type="text" name="buscar" class="form-text" />
+                <input type="submit" value="Buscar" class="btn btn-sm btn-dark" />
+            </p>
+
+        </form>
+
+    </div>
+    <br />
+
+    @if (Model.Count() > 0)
+    {
+
+        <table class="table table-striped border-1" style="width:100%">
+
+            <thead class="bg-primary text-white">
+
+                <tr>
+
+                    <th>
+                        Id
+                    </th>
+                    <th>
+                        Descripcion
+                    </th>
+                    <th>
+                        Imagen
+                    </th>
+                    <th>
+                        Dia
+                    </th>
+                    <th>
+                        Precio
+                    </th>
+                    <th>
+
+                    </th>
+                </tr>
+            </thead>
+
+            <thbody>
+                @foreach (var item in Model)
+                {
+                   @*if(item.Id != 0){*@
+
+                        <tr>
+                            <th width="10%">@item.Id</th>
+                            <th width="30%">@item.Descripcion</th>
+                            <th width="30%">@item.Imagen</th>
+                            <th width="30%">@item.Dia</th>
+                            <th width="20%">@item.Precio</th>
+                            <th class="text-center">
+
+                                <div class="w-75 btn-group" role="group">
+
+                                    <a asp-controller="Tours" asp-action="Upsert" asp-route-Id="@item.Id" class="btn btn-primary mx-2">
+                                        <i class="fas fa-edit"></i>
+                                    </a>
+                                    <a asp-controller="Tours" asp-action="Eliminar" asp-route-Id="@item.Id" class="btn btn-danger mx-2">
+                                        <i class="fas fa-trash-alt"></i>
+                                    </a>
+
+                                </div>
+
+                            </th>
+                        </tr>
+                  @* }*@
+                }
+            </thbody>
+
+        </table>
+    }
+    else
+    {
+        <p>No hay Registro de Tours</p>
+    }
+
+</div>

@@ -1,0 +1,83 @@
+﻿@model Clases_CRUD.CRUD_Modelos.Cliente
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div clas="container p-3">
+     
+    <div class="fow pt-4">
+
+        <div class="col-6">
+
+            <h2 class="text-primary">Cliente </h2>
+
+        </div>
+        
+    </div>
+    <br />
+    @if (Model != null){
+
+        <table class="table table-bordered table-striped table table-striped border-1" style="width:100%">
+
+            <thead class="bg-primary text-white">
+
+                <tr>
+                    <th>
+                        Id
+                    </th>
+                    <th>
+                        Cedula
+                    </th>
+                    <th>
+                        Nombre Completo
+                    </th>
+                    <th>
+                        Telefono
+                    </th>
+                    <th>
+                        Profecion
+                    </th>
+
+                    <th>
+
+                    </th>
+                </tr>
+            </thead>
+
+            <thbody>
+               
+                    <tr>
+                        <th width="10%">@Model.Id</th>
+                        <th width="10%">@Model.Cedula</th>
+                        <th width="25%">@Model.NombreCompleto</th>
+                        <th width="20%">@Model.Telefono</th>
+                        <th width="20%">@Model.Profecion</th>
+                        
+                        <th class="text-center">
+
+                            <div class="w-75 btn-group" role="group">
+
+                            <a asp-controller="Cliente" asp-action="Editar" asp-route-Id="@Model.Id" class="btn btn-primary mx-2">
+                                    <i class="fas fa-edit"></i>
+                                </a>
+                            <a asp-controller="Cliente" asp-action="Eliminar" asp-route-Id="@Model.Id" class="btn btn-danger mx-2">
+                                    <i class="fas fa-trash-alt"></i>
+                                </a>
+
+                            </div>
+
+                        </th>
+                    </tr>
+                
+            </thbody>
+
+        </table>
+        
+    }else
+    {
+        <p>No hay un Cliente Registrado</p>
+    }
+</div>
+
